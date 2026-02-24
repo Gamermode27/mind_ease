@@ -1,0 +1,8 @@
+
+{
+  "name": "MindEase: Teen Journal & Wellness",
+  "description": "A mindful journaling app for teenagers that uses AI to analyze mood, track emotional trends, and provide interactive calming exercises like breathing and grounding.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

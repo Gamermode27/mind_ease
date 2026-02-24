@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "14501732845",
+    "project_id": "tech-88368",
+    "storage_bucket": "tech-88368.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14501732845:android:d37ea8dd4effa88632c7e4",
+        "android_client_info": {
+          "package_name": "App.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXMlJWdtjUMPH2OoNNkZ7hhLMfvfYJkt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14501732845:android:57a4e45c35408d5a32c7e4",
+        "android_client_info": {
+          "package_name": "com.mindease.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXMlJWdtjUMPH2OoNNkZ7hhLMfvfYJkt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

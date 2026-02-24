@@ -1,0 +1,18 @@
+
+{
+  "name": "MindEase Teen Wellness",
+  "short_name": "MindEase",
+  "description": "Your private mental sanctuary and AI mood tracker.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#1e3a8a",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
