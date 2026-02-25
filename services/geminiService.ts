@@ -16,9 +16,21 @@ function simpleFallbackAnalysis(text: string): AnalysisResult {
   let moodScore = 0;
   let moodLabel: MoodLabel = "Neutral";
 
+  const lower = t.toLowerCase();
+  const short = length <= 20;
+
   if (!t) {
     moodScore = 0;
     moodLabel = "Neutral";
+  } else if (short && /happy|yay|awesome|good/i.test(t)) {
+    moodScore = 0.6;
+    moodLabel = "Happy";
+  } else if (short && /sad|down|depress|cry/i.test(t)) {
+    moodScore = -0.5;
+    moodLabel = "Sad";
+  } else if (short && /angry|mad|furious|hate|fuck|shit/i.test(t)) {
+    moodScore = -0.6;
+    moodLabel = "Angry";
   } else if (ex > 2 && upperRatio > 0.3) {
     moodScore = -0.6;
     moodLabel = "Angry";
